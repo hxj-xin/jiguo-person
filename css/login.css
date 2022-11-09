@@ -1,0 +1,56 @@
+main{
+    width: 100%;
+    height: 500px;
+    background-color: #F7F7F7;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+main>.box{
+    width: 1000px;
+    height: 440px;
+    background-color: rgb(251, 248, 248);
+    margin-left: 175px;
+    border:  1px solid #D7D7D7;
+    border-radius: 5px;
+}
+.box_p{
+    width: 300px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 25px;
+    border-left: 6px solid orangered;
+    margin: 20px 0;
+    font-size: 20px;
+}
+form{
+    width: 400px;
+    height: 320px;
+    margin:40px 0 15px 300px;
+}
+form>input{
+    width: 398px;
+    height: 50px;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: #757575;
+    text-indent: 10px;
+    background-color: #F7F7F7;
+    outline: none;
+    font-size: 14px;
+}
+.color{
+    color: rgb(25, 65, 65);
+}
+.reg{
+    color: white;
+    background-color: #FF4229;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    text-indent: 0px;  
+}
+.reg:hover{
+    background-color: #FF0000;
+}

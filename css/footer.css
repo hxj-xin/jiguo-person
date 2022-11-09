@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+footer{
+    width: 100%;
+    height: 360px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    background-color: #4F4F4F;
+}
+.footer_top{
+    width: 100%;
+    height: 220px;
+}
+.footer_left{
+    height: 220px;
+    width: 500px;
+    float: left;
+}
+.footer_logo{
+    width: 160px;
+    height: 160px;
+    float: left;
+    margin-left: 170px;
+    background: url(../img/myCode.jpg) no-repeat 0 0;
+    background-size: 360px 160px;
+    border-radius: 5px;
+}
+.footer_left_item{
+    float: left;
+    margin-left: 20px;
+    width: 135px;
+    height: 170px;
+}
+.footer_left_item>img{
+    width: 130px;
+    height: 50px;
+}
+.footer_left_item>div>span{
+    width: 140px;
+    font-size: 13px;
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    color: #A3A3A3;
+}
+.footer_left_item>div{
+    margin-top: 16px;
+}
+.footer_right{
+    width: 700px;
+    height: 220px;
+    float: left;
+}
+.footer_list{
+    width: 680px;
+    height: 220px;
+    margin-left: 20px;
+}
+.footer_list_li{
+    float: left;
+    list-style: none;
+    color: white;
+    position: relative;
+    margin-right: 25px;
+}
+.footer_list_li:nth-of-type(1){
+    width: 95px;
+}
+.footer_list_li:nth-of-type(2){
+    width: 140px;
+}
+.footer_list_li:nth-of-type(3){
+    width: 150px;
+}
+.footer_list_li:nth-of-type(3)>li{
+    width: 150px;
+}
+.footer_list_li:nth-of-type(4){
+    width: 170px;
+}
+.footer_list_li:nth-of-type(4)>li{
+    width: 170px;
+}
+.footer_list_li>.footer_list1{
+    height: 155px;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    list-style: none;
+}
+.footer_list2>li{
+    width: 65px;
+}
+.footer_list2>li:nth-child(even){
+    margin-left: 5px;
+}
+.footer_list3{
+    width: 145px;
+}
+.footer_list1>li{
+    float: left;
+    height: 20px;
+    line-height: 20px;
+}
+.footer_list1>li>a{
+    font-size: 13px;
+    color: #A3A3A3;
+    text-decoration: none;
+}
+.footer_bottom{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 50px;
+    text-align: center;
+   
+}
+.footer_bottom>p{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 13px;
+    margin: 0 auto;
+    color: #A3A3A3;
+}
